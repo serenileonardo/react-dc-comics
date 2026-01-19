@@ -1,10 +1,13 @@
+import logo from "../assets/img/jumbotron.jpg"
+
 function Jumbo() {
 
 
     return (
         <>
             <section className="Jumbo">
-                <h2>→ Content goes here ←</h2>
+                <div> <img class="jumbo-img" src={logo}></img></div>
+
             </section>
         </>
 

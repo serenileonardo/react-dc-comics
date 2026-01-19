@@ -1,13 +1,28 @@
-import Navbar from "./navbar";
+import Navbar from "./Header";
+import links from "../data/links.js";
+import logo from "../assets/img/dc-logo.png"
 
 
-function Header() {
+const Header = () => {
+
+    console.log(links);
+
     return (
-        <header>
-            <Navbar />
-        </header>
-    );
+        <>
+            <div class="navbar">
+                <img src={logo}></img>
+                {
+                    links.map(link => {
+                        return (
+                            <div key={link.id}>
+                                <span>{link.description}</span>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        </>
+    )
 }
-
 
 export default Header;
