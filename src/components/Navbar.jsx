@@ -4,8 +4,8 @@ import logo from "../assets/img/dc-logo.png";
 function Navbar() {
     return (
         <nav>
-            <img src={logo} alt="DC Logo" />
-            <ul>
+            <img className="logo" src="../assets/img/dc-logo.png" alt="DC Logo" />
+            <ul className="menu">
                 <li>Characters</li>
                 <li>Comics</li>
                 <li>Movies</li>
