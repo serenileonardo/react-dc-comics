@@ -2,6 +2,8 @@ import Header from "./components/Header";
 import Main from "./components/MainContent";
 import Footer from "./components/Footer";
 import Jumbo from "./components/Jumbo";
+import BlueBar from "./components/BlueBar";
+import FooterLinks from "./components/FooterLinks"
 
 import './App.css'
 
@@ -19,7 +21,10 @@ function App() {
         <Main />
       </section>
 
+      <BlueBar />
+      <FooterLinks />
       <Footer />
+
     </>
   );
 }

@@ -3,7 +3,9 @@ const Footer = () => {
     return (
         <footer>
             <section className="blue-string">
+                <div className="string-container">
 
+                </div>
             </section>
             <section className="footer-links">
 

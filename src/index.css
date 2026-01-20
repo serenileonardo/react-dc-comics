@@ -94,3 +94,48 @@ footer {
 .button-load {
   color: white;
 }
+
+.blue-bar {
+  background-color: #0282f9;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+
+}
+
+.blue-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.blue-item img {
+  width: 35px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-left: 90px;
+  padding-top: 40px;
+
+}
+
+.footer-links {
+  list-style: none;
+
+}
+
+.footer-links li a {
+  color: white;
+}
+
+.container-dc {
+  background-image: url(../src/assets/img/footer-bg.jpg);
+  height: 40vh;
+}
