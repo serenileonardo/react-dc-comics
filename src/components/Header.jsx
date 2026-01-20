@@ -9,21 +9,24 @@ const Header = () => {
 
     return (
         <>
-            <div class="navbar">
-                <img src={logo}></img>
-                {
-                    links.map(link => {
-                        return (
-
-
-                            <div key={link.id}>
-                                <a href="#">{link.description}</a>
-                            </div>
-
-                        )
-                    })
-                }
-            </div>
+            <section className="bg-white">
+                <div className="container">
+                    <div class="navbar">
+                        <img src={logo} />
+                        <ul className="navbar-links">
+                            {
+                                links.map(link => {
+                                    return (
+                                        <li key={link.id}>
+                                            <a href="#">{link.description}</a>
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }

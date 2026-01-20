@@ -6,7 +6,8 @@ function Jumbo() {
     return (
         <>
             <section className="Jumbo">
-                <img class="jumbo-img" src={logo} alt="Intestazione brand dc comics" />
+                <img class="jumbo-img" src={logo} />
+
             </section>
         </>
 

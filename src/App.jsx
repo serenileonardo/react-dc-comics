@@ -9,9 +9,16 @@ function App() {
   return (
     <>
 
+
       <Header />
-      <Jumbo />
-      <Main />
+      <section className="jumbo-section">
+        <Jumbo />
+      </section>
+
+      <section className="card-section">
+        <Main />
+      </section>
+
       <Footer />
     </>
   );

@@ -14,14 +14,28 @@ a {
   text-decoration: solid;
 }
 
+li a:hover {
+  text-decoration: underline 3px blue;
+
+}
+
+
+
 img {
   max-width: 100%;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
 
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
 }
 
 .navbar {
@@ -39,6 +53,11 @@ img {
   width: 100%;
   height: 100%;
   object-position: top;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80%
 }
 
 .card-container {
@@ -59,10 +78,15 @@ img {
   color: white;
 }
 
+.card:hover {
+  transform: scale(1.10);
+  box-shadow: 0 15px 35px rgba(248, 246, 246, 0.2);
+}
 
-body {
+.card-section {
   background-color: black;
 }
+
 
 footer {
   background-color: rgb(80, 80, 224);
