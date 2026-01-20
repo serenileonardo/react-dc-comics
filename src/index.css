@@ -1,30 +1,73 @@
-/* .header {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+h1 {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-decoration: solid;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
   display: flex;
-  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.navbar {
+  background-color: white;
+}
+
+
+.jumbo {
+  height: 300px;
+
+}
+
+.jumbo .jumbo-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: top;
+}
+
+.card-container {
+  display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  flex-wrap: wrap;
+  gap: calc(100% / 9);
+  padding: 100px
 }
 
-.logo {
-  height: 40px;
+.card-container .card {
+  width: calc(100% / 9);
+  margin-top: 20px;
+
 }
 
-.menu {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  font-weight: bold;
-}
-
-
-.hero {
-  background: #1c1c1c;
+.card {
   color: white;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  padding-left: 40px;
-} */
+}
 
-/* CARD SECTION STYLES */
+
+body {
+  background-color: black;
+}
+
+footer {
+  background-color: rgb(80, 80, 224);
+}
+
+.button-load {
+  color: white;
+}

@@ -12,13 +12,18 @@ const MainContent = () => {
                     comics.map(comic => {
                         return (
                             <Card info={comic} />
+
                         )
                     })
                 }
             </div>
 
         </>
-    )
+    );
+
+
 }
+
+
 
 export default MainContent
