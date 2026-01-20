@@ -1,20 +1,22 @@
 import comics from "../data/comics"
+import Card from "./Card.jsx"
+
 
 const MainContent = () => {
 
     return (
         <>
-            <h1>Questo è il mio Main</h1>
-            {
-                comics.map(comic => {
-                    return (
-                        <div key={comic.id}>
-                            <h3>{comic.title}</h3>
-                            <span>{comic.price}</span>
-                        </div>
-                    )
-                })
-            }
+
+            <div className="card-container">
+                {
+                    comics.map(comic => {
+                        return (
+                            <Card info={comic} />
+                        )
+                    })
+                }
+            </div>
+
         </>
     )
 }

@@ -14,9 +14,12 @@ const Header = () => {
                 {
                     links.map(link => {
                         return (
+
+
                             <div key={link.id}>
-                                <span>{link.description}</span>
+                                <a href="#">{link.description}</a>
                             </div>
+
                         )
                     })
                 }
